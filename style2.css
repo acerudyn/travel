@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-decoration:none;
+	
+}
+body {
+	
+	background:#eaedef;
+}
+#wrapper {
+	
+	position:relative;
+	background:#ecf0f1;
+	width:1100px;
+	height:1800px;
+	margin:auto;
+
+
+} 
+
+#box-login {
+  position:absolute;
+  right:130px;
+  top:48px;
+	
+}
+.login{
+	
+	position:relative;
+	top:-50px;
+	left:35px;
+	 width:80px;
+	
+}
+
+input.button {
+	position:relative;
+	background:#1ABC9C;
+	color:#fff;
+	width:50px;
+	height:50px;
+	border-radius:4px;
+	box-shadow: 5px 5px 5px #8ECFC2;
+	top:-60px;
+	left:95px;
+}
+
+	 
+
+		
+header {
+	
+	width:100%;
+	height:150px;
+	text-align:center;
+}
+
+.setting-panel {
+	position:absolute;	
+   right:5px;	
+
+overflow:hidden;	
+}
+.setting-panel ul ul{
+	
+display:none;
+right:4px;	
+	
+}
+.setting-panel ul ul li img{
+
+margin-top:7px;	
+	
+}
+
+.setting-panel ul li:hover > ul {
+    background-image:url(images/dropdown-layer.png);
+ 	display:block;
+}
+.setting-panel ul li ul li:hover {
+    background-image:url(images/hover-dropdown.png);
+    overflow:hidden;
+}
+
+#logo-text {
+	
+	 margin-top:45px;
+	 margin-left:35px;
+	 float:left;
+	
+}
+.list-sosmed {
+	
+	margin-top:15px;
+	margin-right:10%;
+	float:right;
+}
+.list-sosmed li{
+	
+	 float:left;
+	
+}
+.list-sosmed li a{
+	padding-left:13px;
+}
+.list-sosmed li a img{
+	
+	width:15px;
+	height:15px;
+	
+}
+#Banner-image {
+ 
+
+ top:10px;
+ margin:auto;
+}
+#Banner-image img{
+ 
+width:100%;
+ height:350px;	
+}
+
+#Banner-image::after{
+	position:absolute;
+	top:200px;
+	left:80px;
+	content:url(images/my-sleep.png);
+	
+	
+	
+}
+nav {
+	position:relative;
+    text-align:center;
+	top:80px;
+}
+nav ul {
+	
+position:absolute;
+
+}
+nav ul li{
+	
+	margin-left:94px;
+	margin-right:95px;
+	float:left;
+	
+}
+nav ul li img{
+	-webkit-transition: 4s ease;
+	-moz-transition: 4s ease;
+	width:80px;
+	height:67px;
+    
+	
+}
+nav ul li a:hover > img {
+	
+	 
+	-moz-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	transition:9ease in;
+	-webkit-transition: 4s ease;
+	-moz-transition: 4s ease;
+	
+}
+
+table {
+	margin-top:50px;
+	width:100%;
+	height:200px;
+	text-align:center;
+	
+}
+table img{
+	width:200px;
+	height:200px;
+	
+}
+
+
+@font-face {
+    font-family:Sarpanch Black;
+    src:url(../../fonts-master/ofl/sarpanch/Sarpanch-Black.ttf);
+    font-weight: bold;
+	}
+	
+h2,h5,h3 {
+	
+    font-family:Sarpanch Black;
+}
+
+table,td {
+	border:1px solid #c2c2c2;
+	border-radius:4px;
+	 
+}
+#konten {
+	
+	line-height:1.5;
+	margin-top:30px;
+    text-align:center;
+    float:left;	
+    width:650px;
+    height:800px;
+	overflow:auto;
+	fo
+}
+.judul {
+	
+ height:50px;
+ background:#A9C8DD;	
+	
+}
+aside {
+	margin-top:30px;
+	margin-left:80px;
+	overflow:hidden;
+	float:left;	
+	text-align:center;
+   
+}
+.box-tamu {
+	height:350px;
+	width:350px;
+	
+}
+.box-video {
+	margin-top:3px;
+	
+   width:350px;	
+    height:450px;
+		
+}
+footer {
+	 margin:auto;
+	 margin-top:30px;
+	float:left;
+    background-color:#a2a2a2;	
+	height:50px;
+	width:100%;
+	text-align:center;
+	padding-top:20px;
+	text-transform:uppercase;
+}
